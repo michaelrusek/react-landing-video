@@ -1,0 +1,94 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  width: 100%;
+  padding: 25px;
+}
+
+.inner {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  background: #fbfbfb;
+  position: relative;
+  border-radius: 20px;
+}
+
+input {
+  border: 2px solid #d9d9d9;
+  padding: 20px 20px;
+  font-size: 18px;
+  color: #000;
+  border-radius: 10px;
+  background: #fff
+    url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZGF0YS1uYW1lPSJtYWlsIGVtYWlsIGUtbWFpbCBsZXR0ZXIiPjxwYXRoIGQ9Ik0yOCAxM2ExIDEgMCAwIDAtMSAxdjhhMSAxIDAgMCAxLTEgMUg2YTEgMSAwIDAgMS0xLTF2LThhMSAxIDAgMCAwLTIgMHY4YTMgMyAwIDAgMCAuODggMi4xMkEzIDMgMCAwIDAgNiAyNWgyMGEzIDMgMCAwIDAgMi4xMi0uODhBMyAzIDAgMCAwIDI5IDIydi04YTEgMSAwIDAgMC0xLTFaIiBmaWxsPSIjY2NjY2NjIiBjbGFzcz0iZmlsbC0wMDAwMDAiPjwvcGF0aD48cGF0aCBkPSJNMTUuNCAxOC44YTEgMSAwIDAgMCAxLjIgMGwxMS44MS04Ljg2YTEgMSAwIDAgMCAuMy0xLjIzIDMuMDYgMy4wNiAwIDAgMC0uNTktLjgzQTMgMyAwIDAgMCAyNiA3SDZhMyAzIDAgMCAwLTIuMTIuODggMy4wNiAzLjA2IDAgMCAwLS41OS44MyAxIDEgMCAwIDAgLjMgMS4yM1pNNiA5aDIwYS45LjkgMCAwIDEgLjI4IDBMMTYgMTYuNzUgNS43MiA5QS45LjkgMCAwIDEgNiA5WiIgZmlsbD0iI2NjY2NjYyIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+    no-repeat right 15px center;
+  background-size: 35px;
+  font-weight: bold;
+}
+
+.button {
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff6600;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px 15px;
+  font-size: 23px;
+  opacity: 0.8;
+  transition: opacity 0.4s ease;
+  line-height: 1.2;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  font-weight: bold;
+  color: #c4c4c4;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  transition: color 0.4s ease;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.privacy {
+  color: #7c7c7c;
+  font-size: 13px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+}
