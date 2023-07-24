@@ -14,14 +14,29 @@ const Modal = ({ modal, setModal }: Props) => {
       )}
       <div className={styles.modal}>
         <div className={styles.inner}>
-          <form className={styles.content}>
+          <form
+            className={styles.content}
+            action="https://app.getresponse.com/add_subscriber.html"
+            accept-charset="utf-8"
+            method="post"
+          >
             <input
               type="email"
+              name="email"
               className={styles.input}
               placeholder="Podaj adres email"
               required
             />
-            <button className={styles.button}>
+            <input type="hidden" name="campaign_token" value="uudNU" />
+            <input
+              type="hidden"
+              name="thankyou_url"
+              value="https://wspolpraca.irektomczyk.pl/video"
+            />
+
+            <input type="hidden" name="start_day" value="0" />
+
+            <button className={styles.button} type="submit">
               Odbieram dostępdo
               <br />
               bezpłatnego video
