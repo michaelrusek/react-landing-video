@@ -14,15 +14,15 @@ const Video = () => {
   return (
     <div className={styles.video}>
       <h2 className={styles.heading}>
-        Jak zrobić AUTOWEBINAR, który zarabia MILION złotych rocznie POznaj moje
-        'know how'
+        Wyszkoliłem, przygotowałem do biznesu kilka tysięcy osób. Sprawdź jak
+        mogę pomóc również Tobie.
       </h2>
       <div className={styles.responsive}>
-        <YouTube videoId="M2YkYr9oyV8" opts={opts} />
+        <YouTube videoId="0JF17Nmw2x8" opts={opts} />
       </div>
 
       <a className={styles.button} href="https://calendly.com/irektomczyk79">
-        Chcę o tym pogadać - Zadzwoń do mnie
+        Umów się na rozmowę
       </a>
     </div>
   );

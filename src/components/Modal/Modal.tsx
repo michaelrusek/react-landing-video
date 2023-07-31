@@ -37,19 +37,16 @@ const Modal = ({ modal, setModal }: Props) => {
             <input type="hidden" name="start_day" value="0" />
 
             <button className={styles.button} type="submit">
-              Odbieram dostępdo
+              Odbieram dostęp do
               <br />
               bezpłatnego video
             </button>
 
             <p className={styles.privacy}>
-              Jeśli chcesz otrzymywać ode mne informacje o nowościach,
-              promocjach, produktach lub usługach mojej firmy - Mega Biznes
-              Ireneusz Tomczyk - na zasadach określonych w{" "}
-              <a className={styles.link} href="#" target="_blank">
-                polityce prywatności
-              </a>{" "}
-              wypełnij formularz podając swój adres email i kliknij w przycisk.
+              Jeśli chcesz otrzymywać ode mnie informacje dotyczące rozwoju
+              kariery oraz inne materiały związane z dodatkowymi dochodami -
+              Mega Biznes Ireneusz Tomczyk - wypełnij formularz podając swój
+              adres email i kliknij w przycisk.
             </p>
           </form>
           <button
